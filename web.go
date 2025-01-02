@@ -2,7 +2,9 @@ package kvm
 
 import (
 	"embed"
+	"fmt"
 	"io/fs"
+	"net"
 	"net/http"
 	"path/filepath"
 	"strings"
@@ -207,7 +209,13 @@ func RunWebServer() {
 	//if strings.Contains(builtAppVersion, "-dev") {
 	//	pprof.Register(r)
 	//}
-	err := r.Run(":80")
+	server := &http.Server{Handler: r}
+	l, err := net.Listen("tcp6", "[::]:80")
+	if err != nil {
+	    fmt.Printf(err.Error())
+	}
+	err = server.Serve(l)
+	// err := r.Run()
 	if err != nil {
 		panic(err)
 	}
