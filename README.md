@@ -23,6 +23,7 @@ compare the commit hash on this branch, to the current hash of the commit(s) in 
 - Nevexo - [Display backlight brightness control](https://github.com/jetkvm/kvm/pull/17)
 - Nevexo - [CTRL+ALT+DEL Button on Action Bar](https://github.com/jetkvm/kvm/pull/18)
 - tutman - [Clean-up jetkvm_native when app exits](https://github.com/jetkvm/kvm/pull/19)
+- Nevexo - [Only start WebSocket client when necessary](https://github.com/jetkvm/kvm/pull/27)
 
 ## Additional Info
 There's a GitHub Action setup to build the JetKVM software whenever this repo has a new release added, it'll take
