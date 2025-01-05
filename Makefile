@@ -1,4 +1,5 @@
 VERSION_DEV := 0.3.8-dev$(shell date +%Y%m%d%H%M)
+VERSION_NEXT := $(git describe --tags --abbrev=0)-$(git rev-parse --short HEAD)
 VERSION := 0.3.7
 
 hash_resource:
@@ -20,6 +21,10 @@ dev_release: build_dev
 build_release: frontend hash_resource
 	@echo "Building release..."
 	GOOS=linux GOARCH=arm GOARM=7 go build -ldflags="-s -w -X kvm.builtAppVersion=$(VERSION)" -o bin/jetkvm_app cmd/main.go
+
+build_next: hash_resource
+	@echo "Building jetkvm-next..."
+	GOOS=linux GOARCH=arm GOARM=7 go build -ldflags="$(GO_LDFLAGS) -X kvm.builtAppVersion=$(VERSION_NEXT)" -o bin/next/jetkvm_app cmd/main.go
 
 release:
 	@if rclone lsf r2://jetkvm-update/app/$(VERSION)/ | grep -q "jetkvm_app"; then \
