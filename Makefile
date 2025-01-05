@@ -1,5 +1,5 @@
 VERSION_DEV := 0.3.8-dev$(shell date +%Y%m%d%H%M)
-VERSION_NEXT := 0.3.5-$(git rev-parse --short HEAD)-$(git describe --tags --abbrev=0)
+VERSION_NEXT := 0.3.5-$(shell git rev-parse --short HEAD)-$(shell git describe --tags --abbrev=0)
 VERSION := 0.3.7
 
 hash_resource:
