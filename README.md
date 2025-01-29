@@ -25,6 +25,10 @@ compare the commit hash on this branch, to the current hash of the commit(s) in 
 - tutman - [Clean-up jetkvm_native when app exits](https://github.com/jetkvm/kvm/pull/19)
 - Nevexo - [Only start WebSocket client when necessary](https://github.com/jetkvm/kvm/pull/27)
 - Nevexo - [Restore EDID on Reboot](https://github.com/jetkvm/kvm/pull/34)
+- tutman - [Remove Rounded Corners](https://github.com/jetkvm/kvm/pull/86)
+- antonym - [Update ISO Versions](https://github.com/jetkvm/kvm/pull/78)
+- tutman - [Fix fullscreen video absolute position](https://github.com/jetkvm/kvm/pull/85)
+- jackislanding - [Allow configuring USB IDs](https://github.com/jetkvm/kvm/pulls)
 
 ## next-multisession
 As requested by a few in the [JetKVM Discord](https://jetkvm.com/discord), this tree also includes a branch that enables
