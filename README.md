@@ -29,6 +29,8 @@ compare the commit hash on this branch, to the current hash of the commit(s) in 
 - antonym - [Update ISO Versions](https://github.com/jetkvm/kvm/pull/78)
 - tutman - [Fix fullscreen video absolute position](https://github.com/jetkvm/kvm/pull/85)
 - jackislanding - [Allow configuring USB IDs](https://github.com/jetkvm/kvm/pulls)
+- williamjohnstone - [Multiple Keyboard Layouts](https://github.com/jetkvm/kvm/pull/116)
+- Nevexo - Add Reboot Button (No PR for this as it's not final)
 
 ## next-multisession
 As requested by a few in the [JetKVM Discord](https://jetkvm.com/discord), this tree also includes a branch that enables
