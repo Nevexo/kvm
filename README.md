@@ -28,8 +28,9 @@ compare the commit hash on this branch, to the current hash of the commit(s) in 
 - tutman - [Remove Rounded Corners](https://github.com/jetkvm/kvm/pull/86)
 - antonym - [Update ISO Versions](https://github.com/jetkvm/kvm/pull/78)
 - tutman - [Fix fullscreen video absolute position](https://github.com/jetkvm/kvm/pull/85)
-- jackislanding - [Allow configuring USB IDs](https://github.com/jetkvm/kvm/pulls)
+- jackislanding - [Allow configuring USB IDs](https://github.com/jetkvm/kvm/pulls/90)
 - williamjohnstone - [Multiple Keyboard Layouts](https://github.com/jetkvm/kvm/pull/116)
+- andnic - [USB HID Fix](https://github.com/jetkvm/kvm/pull/113)
 - Nevexo - Add Reboot Button (No PR for this as it's not final)
 
 ## next-multisession
