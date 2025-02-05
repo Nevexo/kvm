@@ -52,8 +52,8 @@ if [ -z "$REMOTE_HOST" ]; then
 fi
 
 # Check if the binary has been built at ./bin/next/jetkvm_app
-if [ ! -f bin/jetkvm_app ]; then
-    echo "Error: Binary not found at ./bin/jetkvm_app, run make build_next."
+if [ ! -f bin/next/jetkvm_app ]; then
+    echo "Error: Binary not found at ./bin/next/jetkvm_app, run make build_next."
     exit 1
 fi
 
