@@ -1,12 +1,12 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
-import { Terminal } from "xterm";
+import { Terminal } from "@xterm/xterm";
 import { Unicode11Addon } from "@xterm/addon-unicode11";
 import { WebglAddon } from "@xterm/addon-webgl";
 import { WebLinksAddon } from "@xterm/addon-web-links";
 import { FitAddon } from "@xterm/addon-fit";
 import { ClipboardAddon } from "@xterm/addon-clipboard";
 
-import "xterm/css/xterm.css";
+import "@xterm/xterm/css/xterm.css";
 import { useRTCStore, useUiStore } from "../hooks/stores";
 
 const isWebGl2Supported = !!document.createElement("canvas").getContext("webgl2");
