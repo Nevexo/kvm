@@ -2,6 +2,8 @@
 
 > jetkvm-next is not affiliated with, nor supported by, JetKVM or BuildJet.
 
+CURRENTLY BASED ON STABLE VERSION 0.3.7
+
 jetkvm-next is a fork of the JetKVM application with various in-progress features merged in from commnunity
 pull requests.
 
@@ -11,6 +13,19 @@ their upcoming features don't clash with other in-progress PRs.
 
 Main repo: https://github.com/jetkvm/kvm
 
+## Promoted Features
+The following features were in previous versions of jetkvm-next, but are now part of the dev tree.
+These features are still available in the next branch and will be updated during rebases.
+
+- Nevexo - [Force-release IPv4 addresses on Link Down](https://github.com/jetkvm/kvm/pull/16)
+- Nevexo - [Display backlight brightness control](https://github.com/jetkvm/kvm/pull/17)
+- tutman - [Remove Rounded Corners](https://github.com/jetkvm/kvm/pull/86)
+- antonym - [Update ISO Versions](https://github.com/jetkvm/kvm/pull/78)
+- tutman - [Fix fullscreen video absolute position](https://github.com/jetkvm/kvm/pull/85)
+- Nevexo - [Only start WebSocket client when necessary](https://github.com/jetkvm/kvm/pull/27)
+- Nevexo - [Restore EDID on Reboot](https://github.com/jetkvm/kvm/pull/34)
+- andnic - [USB HID Fix](https://github.com/jetkvm/kvm/pull/113)
+
 ## Current Additional Features
 The below [in-development features](https://github.com/jetkvm/kvm) are currently included in `jetkvm-next`.
 The commits from the developer's working tree and cherry picked into this branch, to check the "version" of the feature,
@@ -18,18 +33,10 @@ compare the commit hash on this branch, to the current hash of the commit(s) in 
 
 - tutman - [Plugin System](https://github.com/jetkvm/kvm/pull/10)
 - SuperQ - [Prometheus Metrics](https://github.com/jetkvm/kvm/pull/6)
-- Nevexo - [Force-release IPv4 addresses on Link Down](https://github.com/jetkvm/kvm/pull/16)
-- Nevexo - [Display backlight brightness control](https://github.com/jetkvm/kvm/pull/17)
 - Nevexo - [CTRL+ALT+DEL Button on Action Bar](https://github.com/jetkvm/kvm/pull/18)
 - tutman - [Clean-up jetkvm_native when app exits](https://github.com/jetkvm/kvm/pull/19)
-- Nevexo - [Only start WebSocket client when necessary](https://github.com/jetkvm/kvm/pull/27)
-- Nevexo - [Restore EDID on Reboot](https://github.com/jetkvm/kvm/pull/34)
-- tutman - [Remove Rounded Corners](https://github.com/jetkvm/kvm/pull/86)
-- antonym - [Update ISO Versions](https://github.com/jetkvm/kvm/pull/78)
-- tutman - [Fix fullscreen video absolute position](https://github.com/jetkvm/kvm/pull/85)
 - jackislanding - [Allow configuring USB IDs](https://github.com/jetkvm/kvm/pulls/90)
 - williamjohnstone - [Multiple Keyboard Layouts](https://github.com/jetkvm/kvm/pull/116)
-- andnic - [USB HID Fix](https://github.com/jetkvm/kvm/pull/113)
 - Nevexo - Add Reboot Button (No PR for this as it's not final)
 
 If you're looking to try these features out in jetkvm-next, you should go to the PR and read the authors documentation.
